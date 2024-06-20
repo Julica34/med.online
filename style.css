@@ -3,6 +3,12 @@
   padding: 0;  
 }
 
+@media screen and (min-width: 1024px){
+    .foto{
+        width: 30%;
+    }
+}
+
 header{
     background-color: #F4735C;
     display: flex;
@@ -27,9 +33,5 @@ div{
     padding: 30px;
 }
 
-@media screen and (min-width: 1024px){
-    .foto{
-        width: 30%;
-    }
-}
+
 
