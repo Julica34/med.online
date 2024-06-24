@@ -16,12 +16,36 @@
 }
 
 header{
-    background-color: #F4735C;
-    display: flex;
+    display: inline-block;
     align-items: center;
-    justify-content: space-between;
-    padding: 10px;
+    padding: 12px;
+    justify-content: space-around;
+    background-color:#FCAC95;
+    color: black;
+    position: relative;
+    top: 100%;
+    width: 100%;
+    text-align: center;
 }
+
+/* Importante para o menu tomar como referência *
+    
+    ul li{
+    list-style: none;
+    }
+    
+    .texto{
+    color: white;
+    }
+    
+    a{
+    color: white;
+    text-decoration: none;
+    }
+    
+    .lista{
+    display: none;
+    position: absolute; /* Aqui está definindo onde o menu irá aparecer */
 
 section{
     display: flex;
@@ -41,3 +65,47 @@ div{
 
 
 
+*{
+    margin: 0;   
+    }
+    
+   /*Fazendo o menu aparecer quando clicado */
+   .caixa:checked .lista{
+    display: block;
+    }
+    
+    Desaparecendo a caixa de seleção /
+    #menu{
+    display: none;
+    }
+    
+    .lista-item{
+    padding: 12px 0;
+    color: black;
+    position: relative;
+    }
+    
+    .menu {
+        text-align: center;
+    }
+    
+    .button-container {
+        display: none;
+        margin-top: 10px;
+    }
+    
+    .button-container.open {
+        display: block;
+    }
+    
+    button {
+        background-color: #333;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        margin: 5px;
+        cursor: pointer;
+    }
+
+
+    
