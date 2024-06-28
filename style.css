@@ -28,83 +28,32 @@ header{
     text-align: center;
 }
 
-/* Importante para o menu tomar como referência *
-    
-    ul li{
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+li{
     list-style: none;
-    }
-    
-    .texto{
-    color: white;
-    }
-    
-    a{
-    color: white;
+    margin: 10px;
+    display: inline;
+}
+
+li a{
+    padding: 5px 10px;
+    margin:0;
+    border: 0px solid #f00; 
+    background: #903;
     text-decoration: none;
-    }
-    
-    .lista{
-    display: none;
-    position: absolute; /* Aqui está definindo onde o menu irá aparecer */
-
-section{
-    display: flex;
-    align-items: center;
-    background-color: #DCC4C4;
-    margin: 10px 0;
-    padding: 10px 20px;
+    color:#FFF;
+    /* cantos arredondados */
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
 }
-
-.foto{
-    width: 80%;
+li a:hover{
+    background: #CCC;
+    color: #000; 
+    border-color: #000;
 }
-
-div{
-    padding: 30px;
 }
-
-
-
-*{
-    margin: 0;   
-    }
-    
-   /*Fazendo o menu aparecer quando clicado */
-   .caixa:checked .lista{
-    display: block;
-    }
-    
-    Desaparecendo a caixa de seleção /
-    #menu{
-    display: none;
-    }
-    
-    .lista-item{
-    padding: 12px 0;
-    color: black;
-    position: relative;
-    }
-    
-    .menu {
-        text-align: center;
-    }
-    
-    .button-container {
-        display: none;
-        margin-top: 10px;
-    }
-    
-    .button-container.open {
-        display: block;
-    }
-    
-    .button {
-        background-color: #333;
-        color: white;
-        border: none;
-        padding: 10px 20px;
-        margin: 5px;
-        cursor: pointer;
-    }
-
-
