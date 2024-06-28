@@ -1,60 +1,25 @@
-*{
-  margin: 0;
-  padding: 0;  
-}
-
-.foto{
-    width: 20%;
-    grid-template-columns: repeat(auto-fit, 100px);
-    grid-template-rows: repeat(2, 100px);  
-}
-
-@media screen  and(min-width: 1024px){
-    .foto{
-        width: 70%;
-    }
-    
-}
-
-header{
-    display: inline-block;
-    align-items: center;
-    padding: 12px;
-    justify-content: space-around;
-    background-color:#FCAC95;
-    color: black;
-    position: relative;
-    top: 100%;
-    width: 100%;
-    text-align: center;
-}
-
-ul{
+* {
     margin: 0;
     padding: 0;
 }
 
-li{
-    list-style: none;
-    margin: 10px;
-    display: inline;
+/* setup das variaveis*/
+:root {
+    --verde-fundo: #deece7;
+    --branco-principal: #ffffff;
+    --fonte-principal: "Lustria";
+    --verde-principal: #5fb13b;
+    --azul-principal: #0169b4;
+    --verde-secundario: #313a22;
+    --link: #0a4804;
+    --preto-titulo: #000;
 }
 
-li a{
-    padding: 5px 10px;
-    margin:0;
-    border: 0px solid #f00; 
-    background: #903;
-    text-decoration: none;
-    color:#FFF;
-    /* cantos arredondados */
-    -webkit-border-radius:5px;
-    -moz-border-radius:5px;
-    border-radius:5px;
-}
-li a:hover{
-    background: #CCC;
-    color: #000; 
-    border-color: #000;
-}
+/* configurações do corpo como fontes e cores*/
+body {
+    background-color: #DCC4C4;
+    color: #DCC4C4;
+    font-family: var(--fonte-principal);
+    font-size: 20px;
+    font-weight: 400;
 }
