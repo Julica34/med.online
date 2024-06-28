@@ -5,9 +5,14 @@
 
 /* configurações do corpo como fontes e cores*/
 body {
-    background-color: #DCC4C4;
-    color: #FCAC95;
-    font-family: ;
-    font-size: 20px;
-    font-weight: 400;
+    background-color: hsl(0, 26%, 82%);
+    color: #000000;
+    font-size: 20px; 
 }
+ .permanent-marker-regular {
+        font-family: "Permanent Marker", cursive;
+        font-weight: 400;
+        font-style: normal;
+      }
+.cabecalho {
+    background-color: #FCAC95;
