@@ -5,7 +5,8 @@
 
 .foto{
     width: 20%;
-    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-columns: repeat(auto-fit, 100px);
+    grid-template-rows: repeat(2, 100px);  
 }
 
 @media screen  and(min-width: 1024px){
