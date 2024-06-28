@@ -3,23 +3,11 @@
     padding: 0;
 }
 
-/* setup das variaveis*/
-:root {
-    --verde-fundo: #deece7;
-    --branco-principal: #ffffff;
-    --fonte-principal: "Lustria";
-    --verde-principal: #5fb13b;
-    --azul-principal: #0169b4;
-    --verde-secundario: #313a22;
-    --link: #0a4804;
-    --preto-titulo: #000;
-}
-
 /* configurações do corpo como fontes e cores*/
 body {
     background-color: #DCC4C4;
-    color: #DCC4C4;
-    font-family: var(--fonte-principal);
+    color: #FCAC95;
+    font-family: ;
     font-size: 20px;
     font-weight: 400;
 }
